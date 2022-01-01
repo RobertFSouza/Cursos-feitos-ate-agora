@@ -1,0 +1,29 @@
+git init = cria repositório local (.git).
+
+ls = exibe conteúdo da pasta em que está.
+
+ls -a = exibe conteúdo normal (e oculto) da pasta em que está.
+
+git status = verifica se há arquivo novo, modificação feita no repositório, etc.
+
+touch: ex: touch a.txt b.txt = cria dois arquivos com o nome descrito no comando, no caso do exemplo "a" e "b".
+
+touch + nome desejado no arquivo = cria um arquivo.
+
+git add = faz com que um arquivo criado esteja pronto para ir ao repositório. ( ao editar algum arquivo ja adicionado, é necessário utilizar o comando novamente, pois por conta da modificação ele volta ao estágio inicial onde ainda "não está preparado").
+
+git commit -m "comentário" (comentário que vai ser exibido futuramente principalmente no github) = identifica os arquivos e armazena no repositório.
+
+git log = mostra a identificação do commit, informações sobre o autor, etc.
+
+git log --oneline = resume os dados que seriam mostrados pelo "git log".
+
+code . = abre o visual studio coach
+
+git clone + url encontrada no repositório desejado = clona o repositório para a maquina, onde pode ser editada.
+
+git remote add origin + url encontrada no repositorio remoto criado = prepara um repositório do pc, para ser empurrado ao repositório remoto (github).
+
+git remote -v = lista as listas de repositorios remotos cadastrados ali.
+
+git push origin master = empurra o repositório do pc que foi preparado, para o repositório remoto.
