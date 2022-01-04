@@ -1,0 +1,8 @@
+Fases da Execução Java
+
+1. Escrevemos o código-fonte (arquivo com a extensão .java)
+2. Utilizamos o JDK para compilar o código-fonte e gerar o arquivo bytecode ( arquivo com a extensão .class)
+3. Para executar o programa, a JVM lê o arquivo compilado (.class) e as bibliotecas padrões do Java que estão no JRE
+
+
+

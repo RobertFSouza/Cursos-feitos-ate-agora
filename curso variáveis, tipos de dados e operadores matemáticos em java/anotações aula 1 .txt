@@ -1,0 +1,25 @@
+Variável = Um espaço na memóriaa do computador, onde se pode guardar valores.
+tipos:
+instância: objeto
+classe: classe
+local: dentro de metódos
+parâmetro: na assinatura do método.
+
+padrão de definição:
+<?visibilidade?> <?modificador?> tipo nome <?=valorinicial?>;
+
+Visi: "public", "protected" e "private"
+modi: "static" e "final"
+tipo: tipo de dado
+nome: nome que é fornecido à variável
+valor: um valor inicial (caso se deseje).
+
+boas práticas:
+
+Sempre começar com letra minúscula;
+Nomes espressivos;
+Notação camelo; 
+Quando constante (final) maiúscula e separada por "_";
+
+
+
